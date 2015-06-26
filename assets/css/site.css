@@ -1,0 +1,45 @@
+body.blank > div.wrap {
+	background-image:url(../images/bg.png);
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body.blank > div.wrap > .container {
+    padding: 0;
+}
+
+section.content-header > .breadcrumb {
+	float:left !important;
+	position: relative;
+	left:0;
+	top:0;
+	font-size:15px;
+}
+
+.jumbotron {
+    text-align: center;
+    /*background-color: transparent;)*/
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.open > .dropdown-menu
+{
+	-webkit-animation-name:flipInX;
+	-moz-animation-name:flipInX;
+	-o-animation-name:flipInX;
+	animation-name:flipInX;
+	-webkit-animation-duration:.4s;
+	-moz-animation-duration:.4s;
+	-o-animation-duration:.4s;
+	animation-duration:.4s;
+	-webkit-animation-fill-mode:both;
+	-moz-animation-fill-mode:both;
+	-o-animation-fill-mode:both;
+	animation-fill-mode:both
+}

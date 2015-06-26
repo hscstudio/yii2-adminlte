@@ -1,29 +1,30 @@
 {
-    "name": "indonesia/yii2-adminlte",
-    "description": "Admin LTE Theme for YiiFramework 2.0",
+    "name": "hscstudio/yii2-adminlte",
+    "description": "AdminLTE Theme for Yii Framework 2.0",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension","adminlte"],
-    "license": "MIT",
-	"support": {
-        "issues": "https://github.com/hscstudio/yii2-adminlte/issues?state=open",
-        "forum": "http://www.yiiframework.com/forum/",
-        "wiki": "http://www.yiiframework.com/wiki/",
-        "irc": "irc://irc.freenode.net/yii",
-        "source": "https://github.com/hscstudio/yii2-adminlte"
-    },
+    "keywords": ["yii2","extension"],
+    "license": "GPL-3.0+",
     "authors": [
         {
             "name": "Hafid Mukhlasin",
             "email": "hafidmukhlasin@gmail.com"
         }
     ],
+	"minimum-stability": "dev",
+	"prefer-stable": true,
     "require": {
-        "yiisoft/yii2": "*",
-		"bower-asset/admin-lte": "1.3"
+		"yiisoft/yii2": "*",
+		"yiisoft/yii2-imagine": "*",
+		"almasaeed2010/adminlte": "~2.0",
+		"kartik-v/yii2-widgets": "*",
+		"kartik-v/yii2-icons": "*"
     },
     "autoload": {
         "psr-4": {
-            "indonesia\\adminlte\\": ""
+            "hscstudio\\adminlte\\": ""
         }
-    }
+    },
+	"extra": {
+        "bootstrap": "hscstudio\\adminlte\\Bootstrap"
+	}
 }
